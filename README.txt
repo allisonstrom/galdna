@@ -1,4 +1,4 @@
-GalDNA is an IDL code that uses an MCMC algorithm to sample 4-dimensional parameter space (log(Z_neb/Z_sun), log(N/O), log(U), and log(Z_star/Z_sun)) and compare predictions from a photoionization model grid to meaurements of common nebular emission lines. As output, GalDNA produces a text file with the full MCMC chains that can then be analyzed as desired.
+GalDNA is an IDL code that uses an MCMC algorithm to sample 4-dimensional parameter space (log(Z_neb/Z_sun), log(N/O), log(U), and log(Z_star/Z_sun)) and compare predictions from a photoionization model grid to meaurements of common nebular emission lines. As output, GalDNA produces a text file with the full MCMC chains that can then be analyzed as desired. An example of how GalDNA can be used to analyze a large sample is described by Strom et al. (2018): https://iopscience.iop.org/article/10.3847/1538-4357/aae1a5
 
 The 'pro' directory contains the main GalDNA code, as well as routines that GalDNA needs to run. The GSFC astronomy routines from the IDL Astronomy User's Library (https://idlastro.gsfc.nasa.gov/) also need to be in the IDL path for GalDNA to run.
 
